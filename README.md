@@ -20,12 +20,15 @@ Main questions are:
 5. How many products do people order per order?
 6. How many aisles do people order from per order?
 7. Reorder rate of products
-8. How users can be clustered into different segmentations? and what are the attributes of these users?
+8. How users can be clustered into different segmentations through which aisle they order from? 
+and what are the attributes of these users?
 
 To answer these questions, we conducted descriptive analysis through Tableau which can be accessed through the deck; modeling
 was done on Jupyter Notebook which was shared on GitHub. 
 
-In modeling, we conducted principle component analysis and k-means clustering.
+In modeling, we conducted principle component analysis to reduce the dimensions and k-means clustering.
+We decided to work with aisle data specifically as it's between the level of products and departments
+which is not too granular or too general. 
 
 Main findings in descriptives are summarized in the deck. For modeling, we found 5 user segments,
 and did persona analysis to understand user attributes. We have suggested Instacart to keep conducting
